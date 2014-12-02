@@ -5,6 +5,10 @@
 		<title>Welcome to Grails</title>
 	</head>
 	<body>
-		Result: ${survey.surveyAuthor}
+		<g:link controller="survey" action="displayCreate">Create Survey</g:link>
+	    </br>
+	    <g:link controller="survey" action="startSurvey">Start Survey</g:link>
+		</br>
+		<g:link controller="survey" action="generateReport">Generate Report</g:link>	    
 	</body>
 </html>
