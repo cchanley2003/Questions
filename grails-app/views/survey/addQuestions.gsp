@@ -23,6 +23,7 @@
     <br/>
     <g:submitButton name="create" value="Save" />
 </g:form>
+
 <div class="allQuestions">
    <g:each in="${survey.questions}" var="question">
       <div class="questionEntry">
