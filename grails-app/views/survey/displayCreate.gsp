@@ -5,6 +5,7 @@
     <title>Create Survey</title>
 </head>
 <body>
+
 <g:form action="save">
     <label for="surveyName">Survey</label>
     <g:textField name="surveyName"/>
