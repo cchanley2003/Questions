@@ -7,7 +7,7 @@
 <body>
 
 <g:form action="save">
-    <label for="surveyName">Survey</label>
+    <label style="padding-right:51px" for="surveyName">Survey</label>
     <g:textField name="surveyName"/>
     <br/>
     <label for="surveyAuthor">Survey Author</label>

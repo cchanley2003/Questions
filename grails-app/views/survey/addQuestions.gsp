@@ -6,7 +6,7 @@
 </head>
 <body>
 <g:form action="saveQuestion" id="${params.id}">
-    <label style="padding-right:7px"for="questionText">Questions Text</label>
+    <label style="padding-right:7px" for="questionText">Questions Text</label>
     <g:textField name="questionText"/>
     <br/>
     <label for="answerOne">Potenial Answer</label>
